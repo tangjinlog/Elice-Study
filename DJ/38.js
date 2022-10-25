@@ -12,6 +12,7 @@ array.sort((a, b) => {
   return b-a;
 });
 
+
 const rankArray = array.filter((elem,i)=>{
   return array.indexOf(elem)===i;
 })

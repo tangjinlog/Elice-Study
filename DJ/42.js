@@ -1,7 +1,7 @@
 // # 문제42 : 2020년
 
 function whatDay (a,b){
-    let findDate = new Date("2020/"+ a +'/'+ b);
+    let findDate = new Date(2020,a-1,b)
     let strArray =["SUN", "MON", "TUE","WED", "THU", "FRI", "SAT"];
     let day = findDate.getDay();
         return strArray[day];
